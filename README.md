@@ -1,7 +1,5 @@
 # 🚀 InterviewSprint - Placement Preparation & Mock Interview Tracking System
 
-![InterviewSprint Header](https://via.placeholder.com/1200x400/1a1a2e/8b5cf6?text=InterviewSprint+-+Your+Placement+Journey,+Tracked)
-
 **Live Demo:** [https://interview-tracker-ten.vercel.app](https://interview-tracker-ten.vercel.app/)
 
 InterviewSprint is a comprehensive, full-stack web application designed to help students and professionals organize, track, and optimize their placement preparation journey. From managing job applications to tracking daily coding practice and keeping a record of interview rounds, InterviewSprint is your personalized hub for landing your dream job.
