@@ -51,15 +51,17 @@ export default function Navbar() {
 
                 {/* User info */}
                 <div className="px-4 py-4 border-b border-white/10">
-                    <div className="glass-card p-3 flex items-center gap-3">
-                        <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-purple-500 to-indigo-500 flex items-center justify-center">
-                            <User size={16} className="text-white" />
+                    <NavLink to="/profile" onClick={() => setIsOpen(false)} className="block group">
+                        <div className="glass-card p-3 flex items-center gap-3 group-hover:bg-white/10 transition-colors cursor-pointer">
+                            <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-purple-500 to-indigo-500 flex items-center justify-center group-hover:shadow-[0_0_15px_rgba(168,85,247,0.5)] transition-shadow">
+                                <User size={16} className="text-white" />
+                            </div>
+                            <div className="min-w-0">
+                                <p className="text-sm font-medium text-white truncate group-hover:text-purple-300 transition-colors">{user?.name}</p>
+                                <p className="text-xs text-slate-400 truncate">{user?.role === 'ADMIN' ? 'Administrator' : 'User'}</p>
+                            </div>
                         </div>
-                        <div className="min-w-0">
-                            <p className="text-sm font-medium text-white truncate">{user?.name}</p>
-                            <p className="text-xs text-slate-400 truncate">{user?.role}</p>
-                        </div>
-                    </div>
+                    </NavLink>
                 </div>
 
                 {/* Navigation */}

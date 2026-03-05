@@ -9,6 +9,7 @@ import Applications from '../pages/Applications';
 import Practice from '../pages/Practice';
 import AdminPanel from '../pages/AdminPanel';
 import NotFound from '../pages/NotFound';
+import Profile from '../pages/Profile';
 import { useAuth } from '../context/AuthContext';
 
 function Layout({ children }) {
@@ -35,6 +36,7 @@ function AppContent() {
                 <Route path="/dashboard" element={<Layout><Dashboard /></Layout>} />
                 <Route path="/applications" element={<Layout><Applications /></Layout>} />
                 <Route path="/practice" element={<Layout><Practice /></Layout>} />
+                <Route path="/profile" element={<Layout><Profile /></Layout>} />
             </Route>
 
             {/* Protected admin route */}
