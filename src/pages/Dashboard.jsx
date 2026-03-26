@@ -98,17 +98,27 @@ export default function Dashboard() {
                 </div>
                 {chartData.length > 0 ? (
                     <ResponsiveContainer width="100%" height={280}>
-                        <BarChart data={chartData} barSize={40}>
+                        <BarChart data={chartData} barSize={40} margin={{ top: 10, right: 10, left: -20, bottom: 25 }}>
                             <CartesianGrid strokeDasharray="3 3" stroke="#2d3748" />
-                            <XAxis dataKey="name" stroke="#94a3b8" tick={{ fontSize: 12 }} />
+                            <XAxis 
+                                dataKey="name" 
+                                stroke="#94a3b8" 
+                                tick={{ fontSize: 11 }} 
+                                interval={0} 
+                                angle={-45} 
+                                textAnchor="end" 
+                                height={60} 
+                            />
                             <YAxis allowDecimals={false} stroke="#94a3b8" tick={{ fontSize: 12 }} />
                             <Tooltip
+                                cursor={{ fill: 'rgba(255,255,255,0.05)' }}
                                 contentStyle={{
                                     backgroundColor: '#1a1a2e',
                                     border: '1px solid rgba(255,255,255,0.1)',
                                     borderRadius: '12px',
-                                    color: '#e2e8f0',
+                                    color: '#ffffff',
                                 }}
+                                itemStyle={{ color: '#ffffff' }}
                             />
                             <Bar dataKey="value" radius={[6, 6, 0, 0]}>
                                 {chartData.map((entry) => (

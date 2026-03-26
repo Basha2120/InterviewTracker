@@ -1,6 +1,8 @@
-# InterviewSprint - Placement Preparation & Mock Interview Tracking System
+# 🚀 InterviewSprint - Placement Preparation & Mock Interview Tracking System
 
-**Live Demo:** [https://interview-tracker-ten.vercel.app](https://interview-tracker-ten.vercel.app/)
+[InterviewSprint Header](https://via.placeholder.com/1200x400/1a1a2e/8b5cf6?text=InterviewSprint+-+Your+Placement+Journey,+Tracked)
+
+**Live Demo:** [https://interview-tracker-ten.vercel.app](https://interview-tracker-ten.vercel.app)
 
 InterviewSprint is a modern, responsive web application designed to help students and professionals organize, track, and optimize their placement preparation journey. From managing job applications to tracking daily coding practice and keeping a record of interview rounds, InterviewSprint is your personalized hub for landing your dream job.
 
@@ -8,17 +10,17 @@ InterviewSprint is a modern, responsive web application designed to help student
 
 ---
 
-## Key Features
+## ✨ Key Features
 
 - **📊 Interactive Dashboard**: Get a bird's-eye view of your applications, success rate, and practice progress through visual data and sleek UI.
-- ** Job Application Tracking**: Keep track of companies, roles, application status, dates, and direct links to job descriptions.
-- ** Interview Round Management**: Log every OA (Online Assessment), Technical, and HR round for a specific application. Track difficulty levels, topics asked, and personal feedback.
-- ** Practice Logs**: Maintain a centralized log of problems solved across various platforms (LeetCode, HackerRank, GeeksForGeeks, etc.). Keep track of difficulty levels, approaches, and revision status.
+- **💼 Job Application Tracking**: Keep track of companies, roles, application status, dates, and direct links to job descriptions.
+- **📝 Interview Round Management**: Log every OA (Online Assessment), Technical, and HR round for a specific application. Track difficulty levels, topics asked, and personal feedback.
+- **💻 Practice Logs**: Maintain a centralized log of problems solved across various platforms (LeetCode, HackerRank, GeeksForGeeks, etc.). Keep track of difficulty levels, approaches, and revision status.
 - **🔐 Secure Authentication**: Full JWT-based login and registration system protecting your personal career data.
 
 ---
 
-## Technology Stack (Frontend)
+## 🛠️ Technology Stack (Frontend)
 
 InterviewSprint's user interface is built with a focus on speed, aesthetics, and user experience using modern web technologies:
 
@@ -37,7 +39,7 @@ While the frontend focuses on delivering a premium user experience, it securely 
 
 ---
 
-## Local Development Setup
+## 💻 Local Development Setup
 
 If you wish to run the React frontend locally:
 

@@ -136,6 +136,11 @@
     box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.2);
   }
 
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    cursor: pointer;
+  }
+
   .select-field {
     width: 100%;
     background: #1a1a2e;
