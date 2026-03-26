@@ -105,7 +105,7 @@ export default function Dashboard() {
                                 stroke="#94a3b8"
                                 tick={{ fontSize: 11 }}
                                 interval={0}
-                                angle={-10}
+                                angle={-15}
                                 textAnchor="end"
                                 height={60}
                             />
